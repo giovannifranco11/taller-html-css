@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Ballet&display=swap');
+
+/*selector de elemento*/
+h1 {
+    
+    color:blue;
+    font-size: 40px;
+    border: solid 2px red;
+    background:rgb(165, 116, 42);
+}
+
+/*Selector descendente*/
+p span  {
+    font-weight: bold;
+    font-style: italic;
+    color:blueviolet;
+    text-decoration: underline;
+}
+
+/*Selector descendente*/
+div span {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/*Selector de clase*/
+.unal {
+    color:palevioletred;
+    
+}
+
+/*Selector por id*/
+#hola-mundo-especial {
+    color: blue;
+    font-weight: bold;
+}
